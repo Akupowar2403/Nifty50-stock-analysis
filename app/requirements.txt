@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+sqlalchemy
+pandas
+yfinance
+pydantic # C:\Users\powar\OneDrive\Desktop\Stock_project\app\requirements.txt
