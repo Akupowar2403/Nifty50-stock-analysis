@@ -76,5 +76,6 @@ def stock_analysis(symbol: str, db: Session = Depends(get_db)):
     if analysis is None:
         raise HTTPException(status_code=404, detail=f"Stock '{symbol}' not found or insufficient data for analysis.")
     return analysis
-
+# hello i have commited some sort of changes
 # (TODO) ADD /analysis/performance endpoint as required by the assignment.
+
