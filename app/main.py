@@ -78,4 +78,7 @@ def stock_analysis(symbol: str, db: Session = Depends(get_db)):
     return analysis
 # hello i have commited some sort of changes
 # (TODO) ADD /analysis/performance endpoint as required by the assignment.
+# this is the to do assignment which can easily fetch the indian stock market data
+
+
 
